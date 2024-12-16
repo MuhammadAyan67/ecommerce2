@@ -1,5 +1,6 @@
 
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
 
 import React from "react";
 
@@ -34,10 +35,10 @@ const Help = () => {
         {/* Buttons */}
         <div className="mt-8 flex flex-wrap gap-4">
           <button className="bg-black text-white font-medium px-5 py-2 rounded-lg shadow hover:bg-gray-800">
-          <a href={"/joinus"}>  JOIN US</a>
+          <Link href={"/joinus"}>  JOIN US</Link>
           </button>
           <button className="bg-black text-white font-medium px-5 py-2 rounded-lg shadow hover:bg-gray-800">
-            SHOP NIKE
+           <Link href={"/featured"}>Shop Now</Link>
           </button>
         </div>
 

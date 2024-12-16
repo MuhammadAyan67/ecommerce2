@@ -5,6 +5,7 @@ interface Items {
   title:string
   title2:string
   price:string
+   link:string
 }
 
 import Best1 from "../public/Best/b1.png"
@@ -32,90 +33,102 @@ export const airMax:Items[] = [
       img:Best1,
       title:"Nike Air Max Pulse",
       title2:"Women's Shoes",
-      price:"₹ 13 995"
+      price:"₹ 13 995",
+      link : "./product/p14"
   },
   {
-      id:2,
-      img:Best2,
-      title:"Nike Air Max Pulse",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 2,
+      img: Best2,
+      title: "Nike Air Max Pulse",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: "./product/p14"
   },
   {
-      id:3,
-      img:Best3,
-      title:"Nike Air Max 97 SE",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 3,
+      img: Best3,
+      title: "Nike Air Max 97 SE",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: "./product/p15"
   },
   {
-      id:4,
-      img:Best3,
-      title:"Nike Air Max 97 SE",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 4,
+      img: Best3,
+      title: "Nike Air Max 97 SE",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: "./product/p15"
   },
 ]
 
 export const gear1:Items[] = [
   {
-      id:1,
-      img:g1,
-      title:"Nike Air Max Pulse",
-      title2:"Women's Shoes",
-      price:"₹ 13 995"
+      id: 1,
+      img: g1,
+      title: "Nike Air Max Pulse",
+      title2: "Women's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
   {
-      id:2,
-      img:g2,
-      title:"Nike Air Max Pulse",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 2,
+      img: g2,
+      title: "Nike Air Max Pulse",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
   {
-      id:3,
-      img:g1,
-      title:"Nike Air Max 97 SE",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 3,
+      img: g1,
+      title: "Nike Air Max 97 SE",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
   {
-      id:4,
-      img:g2,
-      title:"Nike Air Max 97 SE",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 4,
+      img: g2,
+      title: "Nike Air Max 97 SE",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
 ]
 
 export const gear2:Items[] = [
   {
-      id:1,
-      img:g3,
-      title:"Nike Air Max Pulse",
-      title2:"Women's Shoes",
-      price:"₹ 13 995"
+      id: 1,
+      img: g3,
+      title: "Nike Air Max Pulse",
+      title2: "Women's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
   {
-      id:2,
-      img:g4,
-      title:"Nike Air Max Pulse",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 2,
+      img: g4,
+      title: "Nike Air Max Pulse",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
   {
-      id:3,
-      img:g3,
-      title:"Nike Air Max 97 SE",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 3,
+      img: g3,
+      title: "Nike Air Max 97 SE",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
   {
-      id:4,
-      img:g4,
-      title:"Nike Air Max 97 SE",
-      title2:"Men's Shoes",
-      price:"₹ 13 995"
+      id: 4,
+      img: g4,
+      title: "Nike Air Max 97 SE",
+      title2: "Men's Shoes",
+      price: "₹ 13 995",
+      link: ""
   },
 ]
 
@@ -125,91 +138,104 @@ export const feature:Items[] = [
       img:f1,
       title:"Nike Air Force 1 Mid '07",
       title2:"Men's Shoes",
-      price:"₹ 10 995"
+      price:"₹ 10 995",
+      link:"./product/p1"
   },
   {
-      id:2,
-      img:f2,
-      title:"Nike Court Vision Low Next Nature",
-      title2:"Men's Shoes",
-      price:"₹ 4 995"
+      id: 2,
+      img: f2,
+      title: "Nike Court Vision Low Next Nature",
+      title2: "Men's Shoes",
+      price: "₹ 4 995",
+      link: "./product/p2"
   },
   {
-      id:3,
-      img:f3,
-      title:"Nike Air Force 1 PLT.AF.ORM",
-      title2:"Women's Shoes",
-      price:"₹ 8 995"
+      id: 3,
+      img: f3,
+      title: "Nike Air Force 1 PLT.AF.ORM",
+      title2: "Women's Shoes",
+      price: "₹ 8 995",
+      link: "./product/p3"
   },
   {
-      id:4,
-      img:f4,
-      title:"Nike Air Force 1 React",
-      title2:"Men's Shoes",
-      price:"₹ 13 295"
+      id: 4,
+      img: f4,
+      title: "Nike Air Force 1 React",
+      title2: "Men's Shoes",
+      price: "₹ 13 295",
+      link: "./product/p4"
   },
   {
-      id:5,
-      img:f5,
-      title:"Air Jordan 1 Elevate Low",
-      title2:"Women's Shoes",
-      price:"₹ 11 895"
+      id: 5,
+      img: f5,
+      title: "Air Jordan 1 Elevate Low",
+      title2: "Women's Shoes",
+      price: "₹ 11 895",
+      link: "./product/p5"
   },
   {
-      id:6,
-      img:f6,
-      title:"Nike Court Vision Low",
-      title2:"Men's Shoes",
-      price:"₹ 5 695"
+      id: 6,
+      img: f6,
+      title: "Nike Court Vision Low",
+      title2: "Men's Shoes",
+      price: "₹ 5 695",
+      link: "./product/p6"
   },
   {
-      id:7,
-      img:f7,
-      title:"Nike Dunk Low Retro SE",
-      title2:"Men's Shoes",
-      price:"₹ 9 695"
+      id: 7,
+      img: f7,
+      title: "Nike Dunk Low Retro SE",
+      title2: "Men's Shoes",
+      price: "₹ 9 695",
+      link: "./product/p7"
   },
   {
-      id:8,
-      img:f8,
-      title:"Nike Air Max SC",
-      title2:"Men's Shoes",
-      price:"₹ 12 695"
+      id: 8,
+      img: f8,
+      title: "Nike Air Max SC",
+      title2: "Men's Shoes",
+      price: "₹ 12 695",
+      link: "./product/p8"
   },
   {
-      id:9,
-      img:f9,
-      title:"Nike Dunk Low Retro",
-      title2:"Men's Shoes",
-      price:"₹ 7 695"
+      id: 9,
+      img: f9,
+      title: "Nike Dunk Low Retro",
+      title2: "Men's Shoes",
+      price: "₹ 7 695",
+      link: "./product/p9"
   },
   {
-      id:10,
-      img:f10,
-      title:"Nike Air Max SC",
-      title2:"Women's Shoes",
-      price:"₹ 16 695"
+      id: 10,
+      img: f10,
+      title: "Nike Air Max SC",
+      title2: "Women's Shoes",
+      price: "₹ 16 695",
+      link: "./product/p10"
   },
   {
-      id:11,
-      img:f9,
-      title:"Nike Air Force 1 PLT.AF.ORM",
-      title2:"Women's Shoes",
-      price:"₹ 8 995"
+      id: 11,
+      img: f9,
+      title: "Nike Air Force 1 PLT.AF.ORM",
+      title2: "Women's Shoes",
+      price: "₹ 8 995",
+      link: "./product/p11"
   },
   {
-      id:12,
-      img:f5,
-      title:"Nike Air Force 1 React",
-      title2:"Men's Shoes",
-      price:"₹ 13 295"
+      id: 12,
+      img: f5,
+      title: "Nike Air Force 1 React",
+      title2: "Men's Shoes",
+      price: "₹ 13 295",
+      link: "./product/p12"
   },
   {
-      id:13,
-      img:f4,
-      title:"Air Jordan 1 Elevate Low",
-      title2:"Women's Shoes",
-      price:"₹ 11 895"
+      id: 13,
+      img: f4,
+      title: "Air Jordan 1 Elevate Low",
+      title2: "Women's Shoes",
+      price: "₹ 11 895",
+      link: "./product/p13"
   },
   
  

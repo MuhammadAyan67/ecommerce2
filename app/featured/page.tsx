@@ -33,15 +33,15 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              
+              <input type="checkbox" id="h1" />
               Men
             </h1>
             <h1 className="flex gap-2 items-center">
-             
+            <input type="checkbox" id="h1" />
               Women
             </h1>
             <h1 className="flex gap-2 items-center">
-             
+            <input type="checkbox" id="h1" />
               Unisex
             </h1>
           </div>
@@ -56,11 +56,11 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              
+            <input type="checkbox" id="h1" />
               Boys
             </h1>
             <h1 className="flex gap-2 items-center">
-              
+            <input type="checkbox" id="h1" />
               Girls
             </h1>
           </div>

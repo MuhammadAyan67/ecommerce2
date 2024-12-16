@@ -12,8 +12,8 @@ export default function Nav() {
       <div>
  
 </div>
-      <div className="flex md:gap-4 sm:gap-3 gap-2 ">
-        <Link href="/location" className="border-gray-500 hover:text-gray-800 border-r-2 pr-3">Find Link Store</Link>
+      <div className="flex md:gap-4 sm:gap-3 gap-2 font-semibold">
+        <Link href="/Findstore" className="border-gray-500 hover:text-gray-800 border-r-2 pr-3">Find Link Store</Link>
         <Link href="/help" className="border-gray-500 hover:text-gray-800 border-r-2 pr-3">Help</Link>
         <Link href="/joinus" className="border-gray-500 hover:text-gray-800 border-r-2 pr-3">Join Us</Link>
         <Link href="/login" className=" hover:text-gray-800  pr-3">Sign In</Link>
@@ -24,15 +24,15 @@ export default function Nav() {
     <div className="flex flex-wrap justify-between items-center px-6 py-4">
       {/* Left section (Logo) */}
       <div className="flex items-center">
-        <Image
+       <Link href={"/"}> <Image
           src={"/logo2.png"}
           alt="Nike Logo"
           width={35} height={35}
-        />
+        /></Link>
       </div>
 
       {/* Center section (Navigation Links) */}
-      <nav className="flex gap-4 md:gap-6 text-gray-700 font-medium md:text-[16px] sm:text-[14px] text-[10px] ">
+      <nav className="flex gap-4 md:gap-6 text-gray-700 font-semibold md:text-[16px] sm:text-[14px] text-[10px] ">
         <Link href="/featured" className="hover:text-black whitespace-nowrap">New & Featured</Link>
         <Link href="#" className="hover:text-black whitespace-nowrap">Men</Link>
         <Link href="#" className="hover:text-black whitespace-nowrap">Women</Link>

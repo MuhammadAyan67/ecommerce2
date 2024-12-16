@@ -6,6 +6,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  
 } from "@/components/ui/carousel"
 
 import Link from "next/link"
@@ -23,7 +24,7 @@ export function FeaturedCarousel() {
         {feature.map((item) => (
           
           <CarouselItem key={item.id} className=" md:basis-1/3 lg:basis-1/8">
-            <Link href={""}>
+            <Link href={item.link}>
             <div className="p-1">
               <Card>
                 <CardContent className=" bg-[#F5F5F5] aspect-square group p-0">
@@ -45,10 +46,9 @@ export function FeaturedCarousel() {
         ))}
         
       </CarouselContent>
-      {/* <div className="absolute  bottom-[390px] right-14 md:bottom-[450px] md:right-14 lg:bottom-[400px] xl:bottom-[500px]">
-      <CarouselPrevious />
-      <CarouselNext />
-      </div> */}
+      { <div className="absolute  bottom-[390px] right-14 md:bottom-[450px] md:right-14 lg:bottom-[400px] xl:bottom-[500px]">
+      
+      </div> }
    
     </Carousel>
   )

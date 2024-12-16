@@ -14,6 +14,7 @@ import {
 import Link from "next/link"
 import { airMax } from "@/data/detail"
 
+
 export function CarouselSize() {
   return (
     <Carousel
@@ -28,7 +29,7 @@ export function CarouselSize() {
         {airMax.map((item) => (
           
           <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
-            <Link href={""}>
+            <Link href={item.link}>
             <div className="p-7">
               <Card>
                 <CardContent className=" bg-[#F5F5F5]  aspect-square group ">

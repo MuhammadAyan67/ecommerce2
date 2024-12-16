@@ -24,8 +24,8 @@ export default function Hero(){
                 </div>
 
                 <div className='flex justify-center p-4 items-center rounded-2xl'>
-                    <Button className='rounded-full m-1'>Notify Me</Button>
-                    <Button className='rounded-full m-1'>Shop Air Max</Button>
+                    <Button className='rounded-full m-1'><Link href={"/joinus"}>Notify Me</Link></Button>
+                    <Button className='rounded-full m-1'> <Link href={"/featured"}>Shop Air Max</Link></Button>
                 </div>
             </div>
         </section>

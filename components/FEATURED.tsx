@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 export default function Featured() {
   return (
@@ -21,7 +22,7 @@ export default function Featured() {
           Cause everyone should know the feeling of running in that perfect
           pair.
         </p>
-        <Button>Find Your Shoe</Button>
+        <Link href="/featured"> <Button>Find Your Shoe</Button></Link>
       </div>
     </main>
   );
